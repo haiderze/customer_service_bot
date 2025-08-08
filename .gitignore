@@ -1,0 +1,4 @@
+.env
+lang.py
+__pycache__
+langchain
