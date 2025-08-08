@@ -105,7 +105,7 @@ async def rag_answer(question: str) -> str:
     return await call_chatgpt(prompt_text)
 
 # ---------------- FASTAPI APP ----------------
-app = FastAPI(title="SunnyBot RAG Service")
+app = FastAPI(title="RAG Service")
 
 @app.get("/")
 async def root():
